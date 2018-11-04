@@ -8,7 +8,7 @@ public class File {
         auto m = <char*> mode;
         handle = _fopen(f, m);
 
-        if (handle = null) {
+        if (handle == null) {
             throw StateError("...");
         }
     }
